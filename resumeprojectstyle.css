@@ -1,0 +1,393 @@
+/*bodyheader*/
+			#body-header{
+				display: block-flex;
+				width: 100%;
+				height: 32vw;
+				opacity: 1;
+				background-position: center;
+				background-size: cover;
+				background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAIMBCQMBIgACEQEDEQH/xAAZAAADAQEBAAAAAAAAAAAAAAAAAQIDBAf/xAAlEAACAwEAAgIBBAMAAAAAAAAAAQIRITESQQNRYRMicZEygfD/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A8VQ2AAIpMQAXYhIFgFqkhpom0NS8fQGggi79FJAVDhVVwmKLigKRUFokjWEegCj/AK/gHHxw0SSG4gZpWDgX1YhPWmBlNYYN0zr+RnPNICCWilgpMCXwhFNkWASIrRtiATCxOQgGAgQDsUlYhNsBrCrRnrHTAoBDAfR8EDAB0StL2gBItRFHhaVumARWmiwiPcNVoAkXH+CUjSKApRv8GiRKLiA6Y1YRjfsq6wCGsIadmj/Ik1e8AiS/aYzVHRKzD5EBl6IkaMzl0CXwzLYvHAM2DKlElUBm+jFLor+wKsSYrBdAqvYqKQp46QAqQ7RDF5AUiiUCAY+iHHeAOsKXBJlQkA0youyXrBAaRemiZium0QGaJ4QXHQKT00RMUKTA1QaiIsuTwCuohlQFNgDeGc0UhSi/oDCa2vozlGqNnFpa7/BE0msQGK/yZDnWFyRk7+kASlhmuFUQ7AT6JlPhNAJdLRNDQFXGsE9C1Y1oEiz6CRIFoYikrAXSvjT0EiuAZ7ZcFhUYYFAOKtlUTGx0BcUi0Y20zSLAvS4OiUUl/YGibH0SVFRVsBrB3btNGnjiJUF9AKMbfRuH5G4P0JWugUo1jJk/yhSl+7HosS0CJvaMn01ZhOW4BMkZOJoyLAmSSM8subuVGcnQCdWGCsADAwPY3VACrpXkq4Qn6KAh1eiwbaT0XlH7AqiosnyBAaOhWmJaNRASZqpWZeykBqqEwjwGn6ARcCa+y4yApPTRcIjE1hGkA02a/E22Zfg2jHxVgai8q0hzG5P2sAunJWiGmrsqMlWEydgY/IsVf7KWr6BhToCJcOeS2zobwwl/kwM5SohyQfI9Mn0AlJXYnTYmNLAEhMqkuhS9ATQrKaE4gTdabJpxtGaq94EKSdAJ6xUUxAFDsEDAdlp4ZFxeAHspdIkVFgXf0Vr90RelKQDbaHFiu/bQJf8AWBun7WFKRnF4aeNAHlvs1XyUqRjIcGBvGa9sf6i8usxj8t+gg+t9A2T8uMpZ1mUMVhL5fFANycVffwT+o2Z/qt2/RL+WMugVKRjOVDlLDKT8pAS3bJZVUTICUXaoSX7aBqkAmxJiYkA29JbGFAESoryJQJuICcnYeTB02MC0rE4NdBMp8AlLRpAsABSQuDYgHHpsuGcUVfoBtlKq6S+CSA2jTRfntGUKWPpSSW2BbYk6u+EX/QOSazgFOSTpMqMk8XTFrbNIZoG6arWTJxePSW8syTuQGtZRDiki28MpyAiXBRTsfkVFgJpEtFSzhm5ANukSJuwXQEyXhbIYCWsokLAr0HUJDTAVaMVitgUirXslBQFZ6EOuA0AqAGL+AKTNFRgmy4vQNJBFg+EeVAaeX4GpIhSG3nAHKRPlhPsfALjbLd1hEZ50HMC/3Vo0TGQ3oFOWGcmP0ZyYCWIpSM/TEBc/kI8rFTCgGmMn2XVoCLBja0TWATYrKoWIBDQSdj9YA/RJXrRYAItAADYMAAiQogAAOPQADRkMAApcG+DACV0t8AAM/bBgADTeG/pAAEsmQABMesTAAJZIAAGkQACH0r0AAQ+EsAAClwAAb4SAAf/Z);
+				background-attachment: fixed;
+			}
+		section{
+			width: 100%;
+			display:flex;
+			flex-direction: column;
+			align-items: center;
+		}
+			
+/*horizontal-list*/
+		.horizontal-list{
+			list-style: none;
+			padding: 1vw;
+			text-align: center;
+		}
+		.horizontal-list li{
+			display: inline-flex;
+			flex-wrap: wrap;
+			margin-right: 2vw;
+			margin-left: 2vw ;
+		}
+		.horizontal-list li a {
+			
+			color: white;
+			font-size: 1.8vw;
+			text-decoration: none;
+		}
+		@media screen and (max-width: 750px){
+			.horizontal-list li a{
+					font-size:2.2vw;}
+		}
+		.horizontal-list li a:hover{
+			color: lightgray;
+			border-bottom: 3px solid lightgray;
+			
+		}
+			#myname{
+				text-align: center;
+				display: block-flex;
+				color: whitesmoke;
+				margin-top: 05vw;
+				font-size: 4.5vw;
+				letter-spacing: 0.2vh;
+			    /*font-weight: 700;*/
+			}
+			#myname:hover{
+				border-radius: 20%;
+				box-shadow: 0px 0px 6px 4px whitesmoke;
+			}
+/*.............................icon.......................*/
+
+		#icon{
+			margin-left: -2rem;
+			margin-top: -2vw;
+			text-decoration: none;	
+			text-align: center;
+		}
+
+			@media screen and (max-width: 560px){
+				#icon{
+				text-align: left;
+				margin-top: 8%;}
+			}
+		.iconul li{
+			list-style-type: none;
+			display: inline-flex;
+			padding: 1vw;
+		}
+		
+		.iconul li a i{
+			font-size: 2.5vw;
+			border-radius: 50%;
+			color: ghostwhite;
+		}
+		.iconul li a i:hover{
+			box-shadow: 0px 0px 6px 4px grey;
+		}
+
+/*..............aboutsection.....*/
+			#myimage{
+				display: flex;
+				text-align: center;
+				margin-top: -10vw;
+			}
+			#myimage img{
+				box-shadow: 0px 0px 6px 4px whitesmoke;
+				height: 18vw;
+				width: 18vw;
+				border-radius: 50%;
+				border: 0.5vw solid white;
+			}
+			@media screen and (max-width:560px){
+				#myimage{ height: 22vw;
+						width: 22vw;
+				}
+			}
+			#aboutp{                                      /*[overflow-wrap: break-word;] is used when you want to break words or wants to fit the senetnce in div*/
+				
+				display: flex-wrap;
+				margin: 2vw 8vw;
+				text-align: center;
+				background-color: #cae3fd;
+			}
+			@media screen and (max-width: 600px){
+				#aboutp{
+				margin:0%;}
+			}
+
+			#aboutp p::first-letter{
+				font-size: 2rem;
+				font-weight: bold;
+				color: #2857a4;
+			}
+/*.......................skills-section..............................*/
+			#skills{
+				/*background-color: #9e9b9b29;*/
+			}
+			.section-heading{
+				font-size: 2rem;
+				margin: 5vh;
+				margin-top: 10vh;
+				padding: 2vh;
+				text-align: center;
+			}
+			.skills-display{
+				width: 60%;
+				display: flex;
+				margin-bottom: 15px;
+				flex-wrap: wrap;
+				justify-content: space-between;
+			}
+
+			@media screen and (max-width: 600px){
+				.skills-display{
+				width: 100%;}
+			}
+
+			@media screen and (max-width: 800px){
+				.skills-display{
+				width:90%;}
+			}
+			.skills-progress{
+				margin: 0.5rem;
+				width:  7.5rem;
+				height: 1.6rem;
+				background-color: grey;
+				border-radius: 0.8rem;
+			}
+			.skills-progress>div{         /*this css rule ,rules only apply direct child*/ 
+				border-radius: 20px 0px 0px 20px;
+			}
+						.skill-name span{
+							color: white;
+							font-size: 1.2rem;
+							margin-left: 1rem;
+							padding-top:4%;
+						}
+						.eighty-persent{
+							width: 80%;
+							height: inherit;
+						}
+
+						.sixty-persent{
+							width: 60%;
+							height: inherit;
+						} 
+						.fourty-persent{
+							width: 40%;
+							height: inherit;
+						}
+						.seventy-five-persent{
+							width: 75%;
+							height: inherit;
+						}
+						.fourty-five-persent{
+							width: 45%;
+							height: inherit;
+						}
+						.mb-blue{
+							background-color: #2857a4;
+						}
+						.mb-orange{
+							background-color: darkorange;
+						}
+
+/*//................................experience......................*/
+			#education{
+				background-color: #9e9b9b29;
+			}
+			#experience{
+							background-color: #9e9b9b29;
+						}
+			#timeline{
+				position: relative;
+				width: 75%;
+			}	
+
+			@media screen and (max-width: 600px){
+				#timeline{
+				width: 95%;}
+			}
+			.timeline-box{
+				background-color: #c4c9ce;
+				position: relative;
+				/*border: 2px solid black;*/
+				margin: 2vw;
+				left: 5%;
+				min-height: 25vh;
+				width: 40%;
+			}
+
+			.timeline-box:nth-child(2n){
+				left: 54%;
+			}
+			.timeline-box-head{
+				color:#2857a4;
+			}		
+			.timeline-box-company{
+				margin-left: 10%;
+				margin-top: -20px;
+				color: black;
+				font-size: 15px;
+
+			}
+			.timeline-box-date{
+				margin-left: 20%;
+				margin-top: -20px;
+				color: darkorange;
+				font-size: 10px;
+			}
+
+			.timeline-divider{
+				position: absolute;
+				height: 65%;
+				left: 51.5%;
+				border: 3px dashed #0096fa6b;
+				width: 0;
+				top: 10%;
+			}
+			.timeline-icon{
+				position: sticky;
+				top: 20%;
+				color: black;
+				font-size: 4vh;
+
+				transform: rotate(90deg);
+			}
+
+
+		/* ///////////////////////Portfolio Section......................... */
+
+			#portfolio-container {
+			    box-sizing: border-box;
+			    display: flex;
+			    flex-wrap: wrap;
+			    padding: 0 50px;
+			    margin-bottom: 20px;
+			    justify-content: space-around;
+			}
+
+			.portfolio-image-container {
+			    max-width: 300px;
+			    overflow: hidden;
+			    margin: 10px;
+			    background-size: cover;
+			    background-repeat: no-repeat;
+			    position: relative;
+			}
+
+			.portfolio-image-container img {
+			    width: 100%;
+			    height: 100%;
+			}
+
+			.portfolio-details {
+			    transition: all 0.5s ease-in-out;
+			    position: absolute;
+			    top: 0;
+			    left: 0;
+			    height: 100%;
+			    color: transparent;
+			    text-align: center;
+			    padding: 10px;
+			}
+
+			.portfolio-image-container:hover {
+			    box-shadow: 0 0 20px #74ADC8;
+			}
+
+			.portfolio-image-container:hover .portfolio-details {
+			    background-color: #80808078;
+			    color: white;
+			}
+	
+
+/*/////////////////////////////////// Contact Form................................... */
+
+		#contact {
+		    background-color: #0abcf9;
+		    background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
+		    color: white;
+		    padding-bottom: 20px;
+		}
+		#contact h1 span {
+		    color: white;
+		}
+
+		#contact-form {
+		    margin-left: 20%;
+		}
+		@media screen and(max-width: 560px){
+			#contact-form {
+				margin-left:10px;
+			}
+		}
+
+		#contact-container {
+		    display: flex;
+		}
+
+		#my-details-container {
+		    width: 35%;
+		    margin-left: 6%;
+		}
+
+
+		#my-details-container h3 {
+		    color: white;
+		    font-weight: 550;
+		    font-size: 1.2rem;
+		}
+
+		#contact-form-container {
+		    width: 50%;
+		}
+
+		#my-details-container p {
+		    color: #d9dcdd;
+		    font-size: 0.9rem;
+		}
+
+		.my-details-info-container {
+		    margin-bottom: 20px;
+		    font-size: 1rem;
+		}
+
+		.my-details-info-container span {
+		    margin-left: 0.4rem;
+		}
+
+		#contact-form input,textarea {
+		    max-width: 90%;
+		    margin: 15px;
+		    padding: 4px 10px;
+		    border: 0px solid transparent;
+		    border-bottom: 2px solid white;
+		    color: #d9dcdd;
+		    background: transparent;
+		    width: 90%;
+		    line-height: 1.6;
+		    font-size: 1.05rem;
+		}
+
+		#contact-form button[type="submit"] {
+		    background: transparent;
+		    font-size: 0.95rem;
+		    border: 2px solid white;
+		    margin-top: 5%;
+		    margin-left: 35%;
+		    border-radius: 2px;
+		    color: white;
+		    font-weight: 700;    
+		    padding: 0.8em 0.8em 0.8em;
+		}
+
+		#contact-form button:hover {
+		    background: white;
+		    color: #13386fe0;
+		}
+	
+		#icon-contact{
+			transform: translate(30vw);
+		}
+
